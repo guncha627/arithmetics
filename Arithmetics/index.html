@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/scss.css">
+</head>
+<body>
+    <input type="button" value="Calculate" id="calculate">
+        <!-- section1 -->
+    <section class="section1">
+        <div class="cube">
+            <span title="EDGE" class="line line1"></span>
+            <span title="EDGE" class="line line2"></span>
+            <span title="EDGE" class="line line3"></span>
+            <span title="EDGE" class="line line4"></span>
+            <span title="EDGE" class="line line5"></span>
+            <span title="EDGE" class="line line6"></span>
+            <span title="EDGE" class="line line7"></span>
+            <span title="EDGE" class="line line8"></span>
+            <span title="EDGE" class="line line9"></span>
+            <span title="SURFACE" class="square square1"></span>
+            <span title="SURFACE" class="square square2"></span>
+            <span title="SURFACE" class="square square3"></span>
+        </div>
+        <div class="info">
+            <label for="edge1" class="l_edge">
+                <div class="">
+                Edge:
+                <input type="text" class="edge" id="edge1"></div>
+                <br>
+            </label>
+            <label for="volume1" class="l_volume">Volume (V):
+                <p type="text" class="volume" id="volume1"></p>
+            </label>
+            <label for="area1" class="l_area">Area (S):
+                <p type="text" class="area" id="area1"></p>
+            </label>
+        </div>
+    </section>
+
+        <!-- section2 -->
+    <section class="section2">
+        <div class="circle" title="SURFACE">
+            <div class="rad">r</div>
+        </div>
+        <div class="info2">
+            <label for="radius1" class="l_radius">
+                <div class="">
+                Radius:
+                <input type="text" class="radius" id="radius1"></div>
+                <br>
+            </label>
+            <label for="diametr">Diametr:
+                <p type="text" id="diametr"></p>
+            </label>
+            <label for="area2" class="l_area">Area (S):
+                <p type="text" class="area" id="area2"></p>
+            </label>
+            <label for="length1" class="l_length">Length (L):
+                <p type="text" class="length" id="length1"></p>
+            </label>
+            
+        </div>
+    </section>
+
+        <!-- section3 -->
+    <section class="section3">
+        <div class="function"><p>f=3x<sup>3</sup>-6x<sup>2</sup>-7</p>
+        <br><p>f=?</p></div>
+        <div class="info3">
+            <label for="x">
+                <div class="">x:
+                <input type="text" id="x"></div>
+                <br>
+            </label>
+            <label for="f" class="f">f:
+                <p type="text" id="f"></p>
+            </label>
+        </div>
+    </section>
+
+        <!-- section4 -->
+    <section class="section4">
+        <button id="btn">Click</button>
+        <p id="integer"></p>
+        <p id="sum"></p>
+        <p id="product"></p>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
